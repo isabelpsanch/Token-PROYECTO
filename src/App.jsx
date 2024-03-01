@@ -1,5 +1,5 @@
 import { ConnectKitProvider } from 'connectkit'
-import { Toaster } from 'react-hot-toast'
+import { Toester} from 'react-hot-toester'
 import { WagmiConfig } from 'wagmi'
 import { AppLayout } from './components/ui/layouts'
 import { config } from './config/wagmi'
