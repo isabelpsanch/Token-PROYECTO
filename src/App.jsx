@@ -1,8 +1,8 @@
 import { ConnectKitProvider } from 'connectkit'
-import { toast } from 'react-hot-toast'
 import { WagmiConfig } from 'wagmi'
 import { AppLayout } from './components/ui/layouts'
 import { config } from './config/wagmi'
+import { Toast } from 'react-hot-toast'
 import { Home } from './pages'
 
 function App() {

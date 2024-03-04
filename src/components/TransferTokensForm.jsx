@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { toast } from 'react-hot-toast'
+import { Toast } from 'react-hot-toast'
 import { useContractWrite, usePrepareContractWrite, useWaitForTransaction } from 'wagmi'
 import { blockmakerTokenABI } from '../contracts/ABIs'
 import { Button, TextInput, Title } from './ui'
